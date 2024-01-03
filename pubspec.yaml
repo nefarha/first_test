@@ -1,0 +1,33 @@
+name: first_test
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: any
+  cupertino_icons: ^1.0.2
+  freezed_annotation: any
+  json_annotation: any
+  dio: any
+  fpdart: any
+  get_it: any
+  injectable: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: any
+  freezed: ^2.1.0+1
+  json_serializable: ^6.1.1
+  injectable_generator: ^1.5.2
+
+flutter:
+  uses-material-design: true
+
+ 
